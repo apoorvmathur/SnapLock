@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppTheme.CustomActionBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/AppTheme.CustomTabText</item>
+    </style>
+
+    <style name="AppTheme.CustomActionBarStyle" parent="android:Widget.Material.Light.ActionBar.Solid">
+        <item name="android:background">#0099cc</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.CustomTabText" parent="android:Widget.Material.Light.ActionBar.Solid">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
